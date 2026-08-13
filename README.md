@@ -1,14 +1,19 @@
+# Installation instructions
 cd /tmp/
 git clone https://github.com/thesqual92/earnapp_pizero.git
 cd earnapp_pizero/
+
+# Binary installation
 gunzip -d earnapp_for_pizero.gz
 sudo cp earnapp_for_pizero /usr/bin/
 sudo chmod +x /usr/bin/earnapp
 
+# Get Earnapp configuration from another device 
 #Copy a /etc/earnapp from another device already linked to earnapp (move the /etc/earnapp since it has a unique UUID that can only work on one device simultaneously)
 
 #Copy and install the earnapp service
 
+# Installation of the earnapp service
 sudo cp earnapp.service /etc/systemd/system/
 sudo systemctl enable earnapp
 sudo systemctl start earnapp
