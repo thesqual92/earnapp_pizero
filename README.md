@@ -22,8 +22,7 @@ sudo chmod +x /usr/bin/earnapp
 sudo cp earnapp.service /etc/systemd/system/
 sudo systemctl enable earnapp
 sudo systemctl start earnapp
-sudo systemctl status earnapp # 
-cd pi-fan-control
+sudo systemctl status earnapp 
 ```
 expected output for ```bash sudo systemctl status earnapp ```
 earnapp.service - EarnApp
