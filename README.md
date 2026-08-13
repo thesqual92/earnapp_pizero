@@ -15,8 +15,6 @@ sudo chmod +x /usr/bin/earnapp
 # Get Earnapp configuration from another device 
 #Copy a /etc/earnapp from another device already linked to earnapp (move the /etc/earnapp since it has a unique UUID that can only work on one device simultaneously)
 
-#Copy and install the earnapp service
-
 # Installation of the earnapp service
 ```bash
 sudo cp earnapp.service /etc/systemd/system/
