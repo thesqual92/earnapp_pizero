@@ -9,7 +9,7 @@ cd earnapp_pizero/
 # Binary installation
 ```bash
 gunzip -d earnapp_for_pizero.gz
-sudo cp earnapp_for_pizero /usr/bin/
+sudo cp earnapp_for_pizero /usr/bin/earnapp
 sudo chmod +x /usr/bin/earnapp
 ```
 # Get Earnapp configuration from another device 
