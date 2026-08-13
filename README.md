@@ -18,10 +18,15 @@ sudo chmod +x /usr/bin/earnapp
 #Copy and install the earnapp service
 
 # Installation of the earnapp service
+```bash
 sudo cp earnapp.service /etc/systemd/system/
 sudo systemctl enable earnapp
 sudo systemctl start earnapp
-sudo systemctl status earnapp # expected output : "earnapp.service - EarnApp
+sudo systemctl status earnapp # 
+cd pi-fan-control
+```
+expected output for ```bash sudo systemctl status earnapp ```
+earnapp.service - EarnApp
      Loaded: loaded (/etc/systemd/system/earnapp.service; enabled; preset: enabled)
      Active: active (running) since Thu 2026-08-13 13:41:54 CEST; 9min ago
  Invocation: e777924287d84031a5a517ed6c50bbad
@@ -29,6 +34,9 @@ sudo systemctl status earnapp # expected output : "earnapp.service - EarnApp
       Tasks: 11 (limit: 449)
         CPU: 19.253s
      CGroup: /system.slice/earnapp.service
-             └─4789 /usr/bin/earnapp run"
+             └─4789 /usr/bin/earnapp run
              
-/usr/bin/earnapp status # excepted output : "✔ Current status: enabled"
+```bash
+/usr/bin/earnapp status
+```
+Expected output : "✔ Current status: enabled"
