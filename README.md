@@ -22,7 +22,7 @@ Expected output :
 ✔ IP detected
 ...
 ```
-
+Ignore any further error message since the earnapp version for Pi zero is no longer offically supported.
 
 # Get Earnapp configuration from another device 
 #Copy a /etc/earnapp from another device already linked to earnapp (move the /etc/earnapp since it has a unique UUID that can only work on one device simultaneously)
