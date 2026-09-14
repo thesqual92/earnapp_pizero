@@ -9,7 +9,7 @@ cd earnapp_pizero/
 # Binary installation
 ```bash
 gunzip -d earnapp_for_pizero.gz
-sudo cp earnapp_for_pizero earnapp
+sudo mv earnapp_for_pizero earnapp
 sudo chmod +x earnapp
 sudo ./earnapp install
 ```
