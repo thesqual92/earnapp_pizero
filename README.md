@@ -9,8 +9,9 @@ cd earnapp_pizero/
 # Binary installation
 ```bash
 gunzip -d earnapp_for_pizero.gz
-sudo cp earnapp_for_pizero /usr/bin/earnapp
-sudo chmod +x /usr/bin/earnapp
+sudo cp earnapp_for_pizero earnapp
+sudo chmod +x earnapp
+sudo ./earnapp install
 ```
 # Get Earnapp configuration from another device 
 #Copy a /etc/earnapp from another device already linked to earnapp (move the /etc/earnapp since it has a unique UUID that can only work on one device simultaneously)
