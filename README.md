@@ -24,6 +24,7 @@ sudo systemctl restart earnapp
 sudo systemctl status earnapp 
 ```
 expected output for ```bash sudo systemctl status earnapp ```
+```bash
 earnapp.service - EarnApp
      Loaded: loaded (/etc/systemd/system/earnapp.service; enabled; preset: enabled)
      Active: active (running) since Thu 2026-08-13 13:41:54 CEST; 9min ago
@@ -33,7 +34,7 @@ earnapp.service - EarnApp
         CPU: 19.253s
      CGroup: /system.slice/earnapp.service
              └─4789 /usr/bin/earnapp run
-             
+```             
 ```bash
 /usr/bin/earnapp status
 ```
