@@ -20,7 +20,7 @@ sudo ./earnapp install
 ```bash
 sudo cp earnapp.service /etc/systemd/system/
 sudo systemctl enable earnapp
-sudo systemctl start earnapp
+sudo systemctl restart earnapp
 sudo systemctl status earnapp 
 ```
 expected output for ```bash sudo systemctl status earnapp ```
