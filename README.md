@@ -13,6 +13,17 @@ sudo mv earnapp_for_pizero earnapp
 sudo chmod +x earnapp
 sudo ./earnapp install
 ```
+Expected output : 
+```bash
+✔ Moving /XXX/earnapp to /usr/bin
+✔ Service earnapp enabled
+✔ Service earnapp_upgrader enabled
+✔ EarnApp is installed and running.
+✔ IP detected
+...
+```
+
+
 # Get Earnapp configuration from another device 
 #Copy a /etc/earnapp from another device already linked to earnapp (move the /etc/earnapp since it has a unique UUID that can only work on one device simultaneously)
 
@@ -38,4 +49,7 @@ earnapp.service - EarnApp
 ```bash
 /usr/bin/earnapp status
 ```
-Expected output : "✔ Current status: enabled"
+Expected output
+```bash
+"✔ Current status: enabled"
+```
